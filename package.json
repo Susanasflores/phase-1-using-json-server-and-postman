@@ -1,21 +1,14 @@
 {
-  "name": "using-json-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "mocha --timeout 5000"
-  },
-  "author": "Flatiron School",
-  "license": "CC-BY-NC-SA-4.0",
-  "dependencies": {
-    "json-server": "^0.16.3",
-    "chai": "^4.2.0",
-    "jsdom": "^9.0",
-    "mocha": "5.2.0",
-    "mocha-jsdom": "~1.1.0"
-  }
+  "articles": [
+    {
+      "id": 1,
+      "title": "Example Article",
+      "content": "This is an example."
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "content": "This is also an example."
+    }
+  ]
 }
